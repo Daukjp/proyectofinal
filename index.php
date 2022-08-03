@@ -34,12 +34,13 @@
             </div>
         </div>
     </div>
+    <form method="post" action="wcm.php">
     <div class="container3" style="font-size:30px;">
         <div class="row">
             <div class="col">
                 Usuario <br>
                 <div class="input-group-lg">
-                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="Ingresar usuario" name="nickname">
+                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="Ingresar usuario" name="nickname" require>
                 </div>
             </div>
         </div>
@@ -47,23 +48,28 @@
             <div class="col">
                 Contraseña <br>
                 <div class="input-group-lg">
-                    <input type="password" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="Ingresar contraseña" name="pass"> <br>
+                    <input type="password" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="Ingresar contraseña" name="pass" require> <br>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col" align="center">
-                <input type="submit" value="Iniciar Sesión">
+                <input type="submit" name="sesion"value="Iniciar Sesión"> <br>
+                <a href="registro.php">Registrarse</a>
             </div>
         </div>
     </div>
-    <div class="col" style="background-color: rgb(23, 23, 163); font-size: 25px;">
-        <footer style="color: rgb(255, 255, 255);">
-            <p> PBX: xxxx-xxxx - Dirección:XXXXXXX
-                <section> carnet:2021-40023 Nombre:Saul Jean Pierre Alonzo Colocho</section>
-            </p>
-        </footer>
+    </form>
+
+  <div class="row" style="background-color: rgb(23, 23, 163); font-size: 25px;">
+    <div class="col">
+    <p style="color:rgb(255,255,255);"> PBX: xxxx-xxxx - Dirección:XXXXXXX</p>
     </div>
+    <div class="col">
+    <p style="color:rgb(255,255,255);" align="right">carnet:2021-40023 Nombre:Saul Jean Pierre Alonzo Colocho</p>
+    </div>
+  </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 
