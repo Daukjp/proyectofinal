@@ -1,9 +1,8 @@
 <link rel="stylesheet" href="diseño2.css">
 <body>
-<form style="border:1px solid #ccc">
+<form style="border:1px solid #ccc" method="post">
   <div class="container">
     <h1>Registro</h1>
-    <p>Please fill in this form to create an account.</p>
     <hr>
     
     <label for="cod">Usuario</label> <br>              
@@ -19,7 +18,8 @@
     <input type="text" name="contra"  class="form-control" placeholder="Ingrese su contraseña"><br>
 
     <div class="clearfix">
-      <button type="button" class="cancelbtn">Cancelar</button>
+      <a href="index.php">
+      <button type="button" class="cancelbtn">Cancelar</button></a>
       <button type="submit" class="signupbtn" name="enviar">registrar</button>
     </div>
   </div>
@@ -30,9 +30,9 @@ include ('bd.php');
 if(isset($_POST['enviar'])){
     $id=$_POST ['ids'];
     $nom=$_POST ['nombre'];
-    $ape=$_POST ['apellido'];
+    $ape=$_POST ['apell'];
     $cont=$_POST ['contra'];
-    $query="INSERT INTO registro(id_usuario, nombre, apellido,  contrasena) VALUES ('$id', '$nom', '$ape', '$cont')";
+    $query="INSERT INTO registro(id_usuario, nombre, apellido, contrasena) VALUES ('$id', '$nom', '$ape', '$cont')";
     $resultados=mysqli_query($conn, $query);
     if ($resultados) {
         echo '<script lenguage="javascript">';
