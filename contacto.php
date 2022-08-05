@@ -26,27 +26,30 @@
             <div class="col" style="background-color:blue;">
                 <div class="boton"><a href="contacto.php" style="text-decoration: none; color: rgb(255, 255, 255);">Contactenos</a></div>
             </div>
+            <div class="col" style="background-color: rgb(16, 44, 84);">
+                <div class="boton"><a href="mensajes.php" style="text-decoration: none; color: rgb(255, 255, 255);">Mensaje</a></div>
+            </div>
         </div>
     </div>
     <form style="border:1px solid #ccc" method="post">
   <div class="container">
-    <h1>Registro</h1>
+    <h1>Contáctenos</h1>
     <hr>
     
-    <label for="cod">Usuario</label> <br>              
-    <input type="text" name="ids"  class="form-control" placeholder="Ingrese su usuario"><br>
+    <label for="cod">Nombre*</label> <br>              
+    <input type="text" name="nom"  class="form-control" placeholder="Ingrese nombre completo"><br>
 
-    <label for="nombre">Nombre</label>    <br> 
-    <input type="text" name="nombre"  class="form-control" placeholder="Ingrese su nombre"><br>
+    <label for="nombre">Teléfono / Celular*</label>    <br> 
+    <input type="text" name="tel"  class="form-control" placeholder="Ingrese número de teléfono"><br>
 
-    <label for="apellido">Apellido</label><br>
-    <input type="text" name="apell"  class="form-control" placeholder="Ingrese su apellido"><br>
+    <label for="apellido">Correo*</label><br>
+    <input type="text" name="corr"  class="form-control" placeholder="Ingrese correo electronico"><br>
 
-    <label for="direccion">Contraseña </label><br>
-    <input type="password" name="contra"  class="form-control" placeholder="Ingrese su contraseña"><br>
+    <label for="direccion">Mensaje* </label><br>
+    <input type="text" name="mensa"  class="form-control" placeholder="Ingrese su mensaje "><br>
 
     <div class="clearfix">
-      <a href="index.php">
+      <a href="wcm.php">
       <button type="button" class="cancelbtn">Cancelar</button></a>
       <button type="submit" class="signupbtn" name="enviar">registrar</button>
     </div>
@@ -69,11 +72,11 @@
 <?php
 include ('bd.php');
 if(isset($_POST['enviar'])){
-    $id=$_POST ['ids'];
-    $nom=$_POST ['nombre'];
-    $ape=$_POST ['apell'];
-    $cont=$_POST ['contra'];
-    $query="INSERT INTO registro(id_usuario, nombre, apellido, contrasena) VALUES ('$id', '$nom', '$ape', '$cont')";
+    $nomb=$_POST ['nom'];
+    $tele=$_POST ['tel'];
+    $corre=$_POST ['corr'];
+    $mensaj=$_POST ['mensa'];
+    $query="INSERT INTO mensaje(Nombre, telefono, correo, mensaje) VALUES ('$nomb', '$tele', '$corre', '$mensaj')";
     $resultados=mysqli_query($conn, $query);
     if ($resultados) {
         echo '<script lenguage="javascript">';
@@ -81,10 +84,6 @@ if(isset($_POST['enviar'])){
         window.location = "wcm.php";
         </script>';
         }
-    }else{
-        echo '<script lenguage="javascript">';
-        echo 'alert("A ocurrido un error, vuelva a intentarlo")
-        </script>';
     }
     mysqli_close($conn);
 ?>
