@@ -30,6 +30,40 @@
         </script>';
     }
     ?>
+       <div class="container1" style="font-family: Arial, Helvetica, sans-serif; padding: 25px; font-size: 25px; text-decoration: none;" align="center">
+        <div class="row">
+            <div class="col" style="background-color: #f3e523;">
+                <a href="wcm.php" style="text-decoration: none; color: rgb(255, 255, 255);">Inicio</a>
+            </div>
+            <div class="col" style="background-color: skyblue;">
+                <a href="#" style="text-decoration: none; color: rgb(255, 255, 255);">Tienda</a>
+            </div>
+            <div class="col" style="background-color:blue;">
+                <div class="boton"><a href="contacto.php" style="text-decoration: none; color: rgb(255, 255, 255);">Contactenos</a></div>
+            </div>
+        </div>
+    </div>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+  </div>
+</div>
+  <div class="row" style="background-color: rgb(23, 23, 163); font-size: 25px;">
+    <div class="col">
+    <p style="color:rgb(255,255,255);"> PBX: xxxx-xxxx - Dirección:XXXXXXX</p>
+    </div>
+    <div class="col">
+    <p style="color:rgb(255,255,255);" align="right">carnet:2021-40023 Nombre:Saul Jean Pierre Alonzo Colocho</p>
+    </div>
+  </div> 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->

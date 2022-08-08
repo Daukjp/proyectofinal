@@ -32,15 +32,15 @@
   <div class="container">
     <h1>Registro</h1>
     <hr>
-    
-    <label for="cod">Usuario</label> <br>              
-    <input type="text" name="ids"  class="form-control" placeholder="Ingrese su usuario"><br>
 
     <label for="nombre">Nombre</label>    <br> 
     <input type="text" name="nombre"  class="form-control" placeholder="Ingrese su nombre"><br>
 
     <label for="apellido">Apellido</label><br>
     <input type="text" name="apell"  class="form-control" placeholder="Ingrese su apellido"><br>
+
+    <label for="cod">Usuario</label> <br>              
+    <input type="text" name="user"  class="form-control" placeholder="Ingrese su usuario"><br>
 
     <label for="direccion">Contraseña </label><br>
     <input type="password" name="contra"  class="form-control" placeholder="Ingrese su contraseña"><br>
@@ -69,11 +69,11 @@
 <?php
 include ('bd.php');
 if(isset($_POST['enviar'])){
-    $id=$_POST ['ids'];
     $nom=$_POST ['nombre'];
     $ape=$_POST ['apell'];
+    $use=$_POST ['user']
     $cont=$_POST ['contra'];
-    $query="INSERT INTO registro(id_usuario, nombre, apellido, contrasena) VALUES ('$id', '$nom', '$ape', '$cont')";
+    $query="INSERT INTO registro (nombre, apellido, usuario, contrasena) VALUES ( '$nom', '$ape', '$use', '$cont')";
     $resultados=mysqli_query($conn, $query);
     if ($resultados) {
         echo '<script lenguage="javascript">';
