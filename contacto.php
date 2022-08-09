@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <div class="container1" style="font-family: Arial, Helvetica, sans-serif; padding: 25px; font-size: 25px; text-decoration: none;" align="center">
+    <div class="container1" style="font-family: Arial, Helvetica, sans-serif; padding: 25px; font-size: 30px; text-decoration: none;" align="center">
         <div class="row">
             <div class="col" style="background-color: #f3e523;">
                 <a href="wcm.php" style="text-decoration: none; color: rgb(255, 255, 255);">Inicio</a>
@@ -51,14 +51,14 @@
     <div class="clearfix">
       <a href="wcm.php">
       <button type="button" class="cancelbtn">Cancelar</button></a>
-      <button type="submit" class="signupbtn" name="enviar">registrar</button>
+      <button type="submit" class="signupbtn" name="enviar">Enviar</button>
     </div>
   </div>
 </form>
 
   <div class="row" style="background-color: rgb(23, 23, 163); font-size: 25px;">
     <div class="col">
-    <p style="color:rgb(255,255,255);"> PBX: xxxx-xxxx - Dirección:XXXXXXX</p>
+    <p style="color:rgb(255,255,255);"> PBX: 502 3151-6547 - Dirección:XXXXXXX</p>
     </div>
     <div class="col">
     <p style="color:rgb(255,255,255);" align="right">carnet:2021-40023 Nombre:Saul Jean Pierre Alonzo Colocho</p>

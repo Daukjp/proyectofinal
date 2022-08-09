@@ -30,10 +30,23 @@
         </script>';
     }
     ?>
-       <div class="container1" style="font-family: Arial, Helvetica, sans-serif; padding: 25px; font-size: 25px; text-decoration: none;" align="center">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/z7.jpg" class="d-block" alt="..." width="1530" height="600">
+    </div>
+    <div class="carousel-item">
+      <img src="images/z1.jpg" class="d-block w-100" alt="..." width="1530" height="600">
+    </div>
+    <div class="carousel-item">
+      <img src="images/z2.jpg" class="d-block w-100" alt="..." width="1530" height="600">
+    </div>
+  </div>
+</div>
+<div class="container1" style="font-family: Arial, Helvetica, sans-serif; padding: 25px; font-size: 30px; text-decoration: none;" align="center">
         <div class="row">
             <div class="col" style="background-color: #f3e523;">
-                <a href="wcm.php" style="text-decoration: none; color: rgb(255, 255, 255);">Inicio</a>
+                <a href="wcm.php" style="text-decoration: none; color: rgb(255, 255, 255);">Productos</a>
             </div>
             <div class="col" style="background-color: skyblue;">
                 <a href="#" style="text-decoration: none; color: rgb(255, 255, 255);">Tienda</a>
@@ -43,22 +56,27 @@
             </div>
         </div>
     </div>
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="..." class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-    </div>
-  </div>
-</div>
+    <table> 
+  <tr>
+    <td rowspan="2">
+      <img src="images/z3.jpg" alt="" width="765px" height="600" >
+    </td>
+    <td>
+      <img src="images/z4.jpg" alt="" width="380" height="300">
+    </td>
+    <td> 
+      <img src="images/z5.jpg" alt="" width="380" height="300">
+  </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <img src="images/z6.jpg" alt="" width="760" height="300">
+    </td>
+  </tr>
+</table>
   <div class="row" style="background-color: rgb(23, 23, 163); font-size: 25px;">
     <div class="col">
-    <p style="color:rgb(255,255,255);"> PBX: xxxx-xxxx - Dirección:XXXXXXX</p>
+    <p style="color:rgb(255,255,255);"> PBX: 502 3151-6547 - Dirección:XXXXXXX</p>
     </div>
     <div class="col">
     <p style="color:rgb(255,255,255);" align="right">carnet:2021-40023 Nombre:Saul Jean Pierre Alonzo Colocho</p>
