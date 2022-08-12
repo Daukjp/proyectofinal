@@ -58,7 +58,7 @@
 
   <div class="row" style="background-color: rgb(23, 23, 163); font-size: 25px;">
     <div class="col">
-    <p style="color:rgb(255,255,255);"> PBX: 502 3151-6547 - Dirección:XXXXXXX</p>
+    <p style="color:rgb(255,255,255);"> PBX: 502 5130-9846 - Dirección:XXXXXXX</p>
     </div>
     <div class="col">
     <p style="color:rgb(255,255,255);" align="right">carnet:2021-40023 Nombre:Saul Jean Pierre Alonzo Colocho</p>

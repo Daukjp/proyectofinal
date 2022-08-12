@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="diseño4.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
     <title>Bienvenido</title>
@@ -33,13 +34,13 @@
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="images/z7.jpg" class="d-block" alt="..." width="1530" height="600">
+      <img src="images/m7.jpg" class="d-block" alt="..." width="1530" height="600">
     </div>
     <div class="carousel-item">
-      <img src="images/z1.jpg" class="d-block w-100" alt="..." width="1530" height="600">
+      <img src="images/m8.jpg" class="d-block w-100" alt="..." width="1530" height="600">
     </div>
     <div class="carousel-item">
-      <img src="images/z2.jpg" class="d-block w-100" alt="..." width="1530" height="600">
+      <img src="images/m9.jpg" class="d-block w-100" alt="..." width="1530" height="600">
     </div>
   </div>
 </div>
@@ -56,27 +57,54 @@
             </div>
         </div>
     </div>
+    <div class="contenedor">
     <table> 
   <tr>
     <td rowspan="2">
-      <img src="images/z3.jpg" alt="" width="765px" height="600" >
+    <figure>
+        <img src="images/m1.jpg" alt="" width="765px" height="600" >      
+            <div class="capa">
+                <h3>TECLADOS</h3>
+                <p>Ergonomicos, contra el agua etc.</p>
+            </div>
+        </figure>
     </td>
     <td>
-      <img src="images/z4.jpg" alt="" width="380" height="300">
+    <figure>
+    <img src="images/m2.jpg" alt="" width="380" height="300">      
+            <div class="capa">
+                <h3>TECLADOS</h3>
+                <p>Ergonomicos, contra el agua etc.</p>
+            </div>
+        </figure>
     </td>
     <td> 
-      <img src="images/z5.jpg" alt="" width="380" height="300">
+    <figure>
+    <img src="images/m3.jpg" alt="" width="380" height="300">
+            <div class="capa">
+                <h3>TECLADOS</h3>
+                <p>Ergonomicos, contra el agua etc.</p>
+            </div>
+        </figure>
   </td>
   </tr>
   <tr>
     <td colspan="2">
-      <img src="images/z6.jpg" alt="" width="760" height="300">
+    <figure>
+    <img src="images/m10.jpg" alt="" width="760" height="300">   
+            <div class="capa">
+                <h3>TECLADOS</h3>
+                <p>Ergonomicos, contra el agua etc.</p>
+            </div>
+        </figure>
     </td>
   </tr>
 </table>
+    </div>
+    
   <div class="row" style="background-color: rgb(23, 23, 163); font-size: 25px;">
     <div class="col">
-    <p style="color:rgb(255,255,255);"> PBX: 502 3151-6547 - Dirección:XXXXXXX</p>
+    <p style="color:rgb(255,255,255);"> PBX: 502 5130-9846 - Dirección:XXXXXXX</p>
     </div>
     <div class="col">
     <p style="color:rgb(255,255,255);" align="right">carnet:2021-40023 Nombre:Saul Jean Pierre Alonzo Colocho</p>
