@@ -55,7 +55,7 @@
         <div class="row">
             <div class="col" align="center">
                 <input type="submit" name="sesion"value="Iniciar Sesión"> <br>
-                <a href="registro.php">Registrarse</a>
+                <a href="registro.php" style="text-decoration: none;">Registrarse</a>
             </div>
         </div>
     </div>
