@@ -47,7 +47,7 @@
 <div class="container1" style="font-family: Arial, Helvetica, sans-serif; padding: 25px; font-size: 30px; text-decoration: none;" align="center">
         <div class="row">
             <div class="col" style="background-color: #f3e523;">
-                <a href="wcm.php" style="text-decoration: none; color: rgb(255, 255, 255);">Productos</a>
+                <a href="productos.html" style="text-decoration: none; color: rgb(255, 255, 255);">Productos</a>
             </div>
             <div class="col" style="background-color: skyblue;">
                 <a href="#" style="text-decoration: none; color: rgb(255, 255, 255);">Tienda</a>
@@ -64,8 +64,8 @@
     <figure>
         <img src="images/m1.jpg" alt="" width="765px" height="600" >      
             <div class="capa">
-                <h3>TECLADOS</h3>
-                <p>Ergonomicos, contra el agua etc.</p>
+                <h3>Cogin</h3>
+                <p>Tela: Ceda, bordados sobre estructrua de madera de pino.</p>
             </div>
         </figure>
     </td>
@@ -73,8 +73,8 @@
     <figure>
     <img src="images/m2.jpg" alt="" width="380" height="300">      
             <div class="capa">
-                <h3>TECLADOS</h3>
-                <p>Ergonomicos, contra el agua etc.</p>
+                <h3>Alfrombra</h3>
+                <p>Tela: Estabre, con decoración hecha a mano. </p>
             </div>
         </figure>
     </td>
@@ -82,8 +82,8 @@
     <figure>
     <img src="images/m3.jpg" alt="" width="380" height="300">
             <div class="capa">
-                <h3>TECLADOS</h3>
-                <p>Ergonomicos, contra el agua etc.</p>
+                <h3>Silla</h3>
+                <p>Tela: Gamusa, con chapetas palteadas.</p>
             </div>
         </figure>
   </td>
@@ -93,8 +93,8 @@
     <figure>
     <img src="images/m10.jpg" alt="" width="760" height="300">   
             <div class="capa">
-                <h3>TECLADOS</h3>
-                <p>Ergonomicos, contra el agua etc.</p>
+                <h3>Sofá</h3>
+                <p>Tela: Fieltro, armable de dos secciones.</p>
             </div>
         </figure>
     </td>
