@@ -21,7 +21,7 @@
                 <a href="wcm.php" style="text-decoration: none; color: rgb(255, 255, 255);">Inicio</a>
             </div>
             <div class="col" style="background-color: skyblue;">
-                <a href="#" style="text-decoration: none; color: rgb(255, 255, 255);">Tienda</a>
+                <a href="Tienda.html" style="text-decoration: none; color: rgb(255, 255, 255);">Tienda</a>
             </div>
             <div class="col" style="background-color:blue;">
                 <div class="boton"><a href="contacto.php" style="text-decoration: none; color: rgb(255, 255, 255);">Contactenos</a></div>
@@ -58,7 +58,7 @@
 
   <div class="row" style="background-color: rgb(23, 23, 163); font-size: 25px;">
     <div class="col">
-    <p style="color:rgb(255,255,255);"> PBX: 502 5130-9846 - Dirección:XXXXXXX</p>
+    <p style="color:rgb(255,255,255);"> PBX: 502 5130-9846 - Dirección:18 calle 23-30 zona 10</p>
     </div>
     <div class="col">
     <p style="color:rgb(255,255,255);" align="right">carnet:2021-40023 Nombre:Saul Jean Pierre Alonzo Colocho</p>

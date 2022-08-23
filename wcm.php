@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="diseño4.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
     <title>Bienvenido</title>
@@ -50,7 +49,7 @@
                 <a href="productos.html" style="text-decoration: none; color: rgb(255, 255, 255);">Productos</a>
             </div>
             <div class="col" style="background-color: skyblue;">
-                <a href="#" style="text-decoration: none; color: rgb(255, 255, 255);">Tienda</a>
+                <a href="Tienda.html" style="text-decoration: none; color: rgb(255, 255, 255);">Tienda</a>
             </div>
             <div class="col" style="background-color:blue;">
                 <div class="boton"><a href="contacto.php" style="text-decoration: none; color: rgb(255, 255, 255);">Contactenos</a></div>
@@ -61,50 +60,54 @@
     <table> 
   <tr>
     <td rowspan="2">
-    <figure>
-        <img src="images/m1.jpg" alt="" width="765px" height="600" >      
-            <div class="capa">
-                <h3>Cogin</h3>
-                <p>Tela: Ceda, bordados sobre estructrua de madera de pino.</p>
-            </div>
-        </figure>
+    <div class="card" width="900px" height="750px">
+     <img src="images/m1.jpg" class="card-img-top" alt="..."  width="900px" height="700px">
+       <div class="card-body">
+              <h5 class="card-title">Taburete</h5>
+          <p class="card-text">Tela: Ceda, bordados sobre estructrua de madera de pino</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
     </td>
     <td>
-    <figure>
-    <img src="images/m2.jpg" alt="" width="380" height="300">      
-            <div class="capa">
-                <h3>Alfrombra</h3>
-                <p>Tela: Estabre, con decoración hecha a mano. </p>
-            </div>
-        </figure>
+    <div class="card"  width="380px" height="300px">
+      <img src="images/m2.jpg" class="card-img-top" alt="..."  width="380px" height="275px">
+        <div class="card-body">
+            <h5 class="card-title">Alfombra</h5>
+            <p class="card-text">Tela: Estabre, con decoración hecha a mano.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
     </td>
     <td> 
-    <figure>
-    <img src="images/m3.jpg" alt="" width="380" height="300">
-            <div class="capa">
-                <h3>Silla</h3>
-                <p>Tela: Gamusa, con chapetas palteadas.</p>
-            </div>
-        </figure>
+    <div class="card"  width="380px" height="300px">
+      <img src="images/m3.jpg" class="card-img-top" alt="..."  width="380px" height="275px">
+        <div class="card-body">
+            <h5 class="card-title">Silla</h5>
+            <p class="card-text">Tela: Gamusa, con chapetas palteadas.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
   </td>
   </tr>
   <tr>
     <td colspan="2">
-    <figure>
-    <img src="images/m10.jpg" alt="" width="760" height="300">   
-            <div class="capa">
-                <h3>Sofá</h3>
-                <p>Tela: Fieltro, armable de dos secciones.</p>
-            </div>
-        </figure>
+    <div class="card"  width="760px" height="300px">
+      <img src="images/m10.jpg" class="card-img-top" alt="..."  width="760px" height="275px">
+        <div class="card-body">
+            <h5 class="card-title">Sofá</h5>
+            <p class="card-text">Tela: Fieltro, armable de dos secciones.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
     </td>
   </tr>
 </table>
-    </div>
+</div>
     
   <div class="row" style="background-color: rgb(23, 23, 163); font-size: 25px;">
     <div class="col">
-    <p style="color:rgb(255,255,255);"> PBX: 502 5130-9846 - Dirección:XXXXXXX</p>
+    <p style="color:rgb(255,255,255);"> PBX: 502 5130-9846 - Dirección:18 calle 23-30 zona 10</p>
     </div>
     <div class="col">
     <p style="color:rgb(255,255,255);" align="right">carnet:2021-40023 Nombre:Saul Jean Pierre Alonzo Colocho</p>
