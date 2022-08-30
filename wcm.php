@@ -65,7 +65,7 @@
        <div class="card-body">
               <h5 class="card-title">Taburete</h5>
           <p class="card-text">Tela: Ceda, bordados sobre estructrua de madera de pino</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <a href="paginas/pp1.html" class="btn btn-primary">Ver artículo</a>
         </div>
       </div>
     </td>
@@ -75,7 +75,7 @@
         <div class="card-body">
             <h5 class="card-title">Alfombra</h5>
             <p class="card-text">Tela: Estabre, con decoración hecha a mano.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <a href="paginas/pp2.html" class="btn btn-primary">Ver artículo</a>
         </div>
       </div>
     </td>
@@ -85,7 +85,7 @@
         <div class="card-body">
             <h5 class="card-title">Silla</h5>
             <p class="card-text">Tela: Gamusa, con chapetas palteadas.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <a href="paginas/pp3.html" class="btn btn-primary">Ver artículo</a>
         </div>
       </div>
   </td>
@@ -97,7 +97,7 @@
         <div class="card-body">
             <h5 class="card-title">Sofá</h5>
             <p class="card-text">Tela: Fieltro, armable de dos secciones.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <a href="paginas/pp4.html" class="btn btn-primary">Ver artículo</a>
         </div>
       </div>
     </td>

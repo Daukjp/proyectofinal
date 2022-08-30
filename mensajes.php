@@ -54,7 +54,7 @@
             <td><?php echo $row['mensaje']?> </td>
             <td>
                 <a href="eliminar.php?id=<?php echo $row['id_usuario']?>">
-                 <img src="image/borrar-usuario.png" width="40px" alt="eliminar"></a>
+                 <img src="images/boton-eliminar.png" width="40px" alt="eliminar"></a>
             </td>
        </tr>  
        <?php } ?>
