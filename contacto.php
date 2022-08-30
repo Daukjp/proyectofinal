@@ -27,7 +27,7 @@
                 <div class="boton"><a href="contacto.php" style="text-decoration: none; color: rgb(255, 255, 255);">Contactenos</a></div>
             </div>
             <div class="col" style="background-color: rgb(16, 44, 84);">
-                <div class="boton"><a href="mensajes.php" style="text-decoration: none; color: rgb(255, 255, 255);">Mensaje</a></div>
+                <div class="boton"><a href="indm.php" style="text-decoration: none; color: rgb(255, 255, 255);">Mensaje</a></div>
             </div>
         </div>
     </div>

@@ -16,6 +16,20 @@
 </head>
 
 <body>
+<?php
+     if (!empty($_POST['nickname'])&& !empty($_POST['pass'])) {
+        $usuario = $_POST['nickname'];
+        $contra = $_POST['pass'];
+        if($usuario=="admin" && $contra=="mensajes"){
+ 
+        }else {
+         echo '<script lenguage="javascript">';
+         echo 'alert("Usuario o contraseña incorrecta volver a intentar.")
+         window.location = "index.php";
+         </script>';
+     }
+    }
+    ?>
     <div class="container1" style="font-family: Arial, Helvetica, sans-serif; padding: 25px; font-size: 30px; text-decoration: none;" align="center">
         <div class="row">
             <div class="col" style="background-color: #f3e523;">
