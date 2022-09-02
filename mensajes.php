@@ -47,8 +47,8 @@
         </div>
     </div>
     <div class="col-10">
-      <h3>Mensajes Recibidos</h3>
-
+     
+     <h3>Mensajes Recibidos</h3>
 <table align="center">
   <tr>
     <th>Nombres</th>
@@ -72,10 +72,14 @@
             </td>
        </tr>  
        <?php } ?>
-     </table>      
+     </table>     
          </div>
        </div>
      </div>
+     <div class="col-3">  <a href=" pdf.php">
+         <button type="button" class="btn btn-outline-danger" >PDF</button> 
+         </a>
+         </div>
   <div class="row" style="background-color: rgb(23, 23, 163); font-size: 25px;">
     <div class="col">
     <p style="color:rgb(255,255,255);"> PBX: 502 5130-9846 - Dirección:18 calle 23-30 zona 10</p>
